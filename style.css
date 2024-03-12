@@ -1,0 +1,35 @@
+#redBtn {
+    background-color: red;
+    color: white;
+}
+#redBtn:hover{
+    background-color: rgb(red, green, blue);
+    font-weight: bold;
+}
+#greenBtn{
+    background-color: green;
+    color: white;
+}
+#greenBtn:hover{
+    background-color: rgb(red, green, blue);
+    font-weight: bold;
+}
+#blueBtn{
+    background-color:blue;
+    color: white;
+}
+#blueBtn:hover{
+    background-color: rgb(red, green, blue);
+    font-weight: bold;
+}
+#randomBtn {
+    background-color: slategrey;
+    color: black;
+}
+button{
+    height: 40px;
+    width: 100px;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
