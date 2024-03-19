@@ -1,13 +1,17 @@
-const body = document.getElementsByTagName("body")[0]
+const textfield = document.getElementById("textfield")
 
-function setcolor(color){
-    body.style.backgroundColor = color;
+function checkPalindrome() {
+    const value = textfield.value;
+    const reverse = reverseString(value);
+
+    if (value === reverse){
+        alert("Thats a palindrome lil buddy")
+    }else{
+        alert("uh oh lil buddy thats not a palindrome oil up👿")
+
+    }
 }
 
-function randomColor() {
-    const red = Math.random() * 255;
-    const green = Math.random() * 255;
-    const blue = Math.random() * 255;
-    
-    setcolor (`rgb(${red}, ${green}, ${blue})`);
+function reverseString (String){
+    return String.split("").reverse().join("");
 }
